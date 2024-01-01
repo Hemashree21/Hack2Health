@@ -1,0 +1,62 @@
+.post {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+h1 {
+    margin: 2rem 2rem 2rem 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    color: rgb(51, 19, 68);
+}
+
+.post {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .read-more {
+    cursor: pointer;
+    color: #0074d9;
+  }
+
+  .banner {
+    height: 100px;
+  }
+
+.post-username {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.post-message {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.post-timestamp {
+    color: grey;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+  }
+  
+  .post .banner {
+    width: 300px; 
+    height: 150px; 
+    margin-right: 10px;
+  }
+  
+  .post-content {
+    flex: 1; 
+  }
+  

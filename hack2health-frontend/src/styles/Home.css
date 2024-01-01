@@ -1,0 +1,125 @@
+
+.home {
+    height: 500px;
+}
+
+.ngo {
+    margin: 30px 30px 110px 30px;
+    height: 50px;
+    width: 300px;
+    background-color: rgb(109, 146, 216);
+    border: 2px solid rgb(109, 146, 216);
+    box-shadow: 3px 1px 1px 1px black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.br {
+    position: 'relative'
+}
+
+.ngo:hover {
+    background-color: rgb(82, 110, 160);
+    box-shadow: 5px 2px 2px 2px black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item1, .item2, .item3 {
+    margin-top: 30px;
+    height: 200px;
+    border-radius: 25px;
+    width: 300px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.5);
+}
+
+.item1 {
+    background-image: linear-gradient(to left, rgba(244, 194, 13, 0), #b80129);
+}
+
+.item1:hover {
+    background-color: #6a0219;
+}
+
+.item2 {
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(205, 197, 57));
+}
+
+.item2:hover {
+    background-color: orange;
+}
+
+.item3:hover {
+    background-color: #672077;
+}
+
+.item3 {
+    background-image: linear-gradient(to left, rgba(255,0,0,0), #b64cce);
+}
+
+.goals {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.goal {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: orange;
+    margin-top: 20px;
+}
+
+.goals2 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #b80129;
+    margin-bottom: 20px;
+}
+
+.goal2 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #b80129;
+    margin-top: 20px;
+}
+
+.goals3 {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #530a63;
+    margin-bottom: 20px;
+}
+
+.goal3 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #530a63;
+    margin-top: 20px;
+}
+

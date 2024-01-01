@@ -1,0 +1,83 @@
+.gender-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+  }
+  
+  .gender-radio {
+    display: flex;
+  }
+
+  .gender{
+    margin-right: 150px;
+  }
+
+  .gender-button {
+    margin-right: 10px;
+  }
+
+  .gender-radio:checked + .gender-button {
+    background-color: #000;
+  }
+
+  .container1 {
+    display: flex;
+    flex: 1;
+    height: 300px;
+    width: 400px;
+  }
+
+  .dropdown-box {
+    height: 55px;
+    margin-right: 100px;
+    background-position: 10px center;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    width: 450px;
+  }
+  
+  select {
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none;
+    background: transparent; 
+  }
+  
+  
+  .address {
+    display: flex;
+    margin-top: 30px;
+    color: #2E333E;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label1 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    color: #2E333E;
+    font-weight: 400;
+  }
+
+  .line3{
+    color: #2E333E;
+    font-weight: 400;
+    border: 1px solid #D0D5DD;
+    font-size: 14px;
+  }
+
+
+  

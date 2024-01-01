@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(to left, rgba(255,0,0,0), #4C80CE);
+    padding: 0;
+    margin: 0;
+}
+
+.center-container {
+    width: 500px;
+    height: 500px;
+    margin: 100px 70px 70px 500px;
+    align-items: left;
+    background: white;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+.label {
+    margin: 10px 0px 0px 10px;
+}  
